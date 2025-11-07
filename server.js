@@ -5,7 +5,7 @@ const app = express();
 app.use(express.static(__dirname)); // index.html serve করবে
 
 // এখানে পরে তোমার Render Link বসাবে
-const url = "https://YOUR-RENDER-URL.onrender.com"; 
+const url = "https://alexhost.onrender.com"; 
 
 // প্রতি 2 মিনিটে নিজেকে ping করবে যাতে sleep না হয়
 setInterval(() => {
